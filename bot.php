@@ -15,11 +15,12 @@ if (!is_null($events['events'])) {
 			$text = $event['message']['text'];
 			// Get replyToken
 			$replyToken = $event['replyToken'];
-
+				echo $replyToken;
+				echo $text."<br>";
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => $text
+				'text' => $text." 555 ผลรับข้อความของคุณได้แล้วครับ"
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
