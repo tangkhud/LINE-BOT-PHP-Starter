@@ -6,7 +6,7 @@ $access_token = 'xr1zLNepesF/LTvtqIATxkIwbmO30J7tytcqyoetVeakpkGT8nP4dBMuQymU5UU
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => " 555 ผลรับข้อความของคุณได้แล้วครับ". $replyToken
+				'text' => " 555 ผลรับข้อความของคุณได้แล้วครับ"
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
@@ -30,3 +30,4 @@ $access_token = 'xr1zLNepesF/LTvtqIATxkIwbmO30J7tytcqyoetVeakpkGT8nP4dBMuQymU5UU
 			echo $result . "\r\n";
 		
 echo "OK    ll";
+
